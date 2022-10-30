@@ -1,13 +1,13 @@
 # CS21B033_ATM
 # I used the OOPS concepts of abstraction , inheritence in this program
 # I've used abstraction to secure the account numbers and inheritence in pins class . I've extended pins class so that I can define an object which can access both pins and accounts class at once.
-# my code has abstract class and normal classes.
-# abstract class Account has all the accounts in this atm.
-# the class pins contains passwords of all the accounts in this atm.
-# the class balance has the balance of each account.
-# the method dispenceCash takes 5 inputs. When the user withdraws money , this functiom is called and it will display the number of different types of currency notes the user gets.
+# My code has abstract class and normal classes.
+# Abstract class Account has all the accounts in this atm.
+# The class pins contains passwords of all the accounts in this atm.
+# The class balance has the balance of each account.
+# The method dispenceCash takes 5 inputs. When the user withdraws money , this functiom is called and it will display the number of different types of currency notes the user gets.
      Ex :- if the user withdraws 700 , it will show "1 Five hundred notes , 1 Two hundred notes"
-# the boolean method Check takes a string input. It checks whether the input is a string with only integer like "457242" . If it is an integer , it returns true ,  else it returns false.
+# The boolean method Check takes a string input. It checks whether the input is a string with only integer like "457242" . If it is an integer , it returns true ,  else it returns false.
 # the variables twoK , fiveH , twoH , oneH are the initial number of respective currency notes in atm.
 # I put a while loop before displaying 'Welcome' etc, because after the user logs out after using atm , it should again display 'Welcome' for the next user.
 # Since the account number and pins are initially a five digit integers , I've writen another while loop which checsk whether the given input for account number and pin are actually defined inputs or not. If the input is not one of the defined values of account number or pins , the atm asks the user to re-enter properly. In case of  pins , the user has only three chances to give correct pin.
