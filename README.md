@@ -1,7 +1,6 @@
 # CS21B033_ATM
 # I used the OOPS concepts of abstraction , inheritence in this program
 # I've used abstraction to secure the account numbers and inheritence in pins class . I've extended pins class so that I can define an object which can access both pins and accounts class at once.
-# My code has abstract class and normal classes.
 # Abstract class Account has all the accounts in this atm.
 # The class pins contains passwords of all the accounts in this atm.
 # The class balance has the balance of each account.
